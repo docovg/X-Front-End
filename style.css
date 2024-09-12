@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.meow{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 1 auto;
+    position: relative;
+    height: 90vh;
+    box-sizing: border-box;
+}
+.part1 img{
+    max-height: 380px;
+    padding: 10px 50px;
+    user-select: none; 
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none;
+    pointer-events: none; /* Désactive toutes les interactions de la souris */
+}
+.part2 h1{
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 40px;
+}
+.part2 h2{
+    font-family: "TwitterChirpExtendedHeavy", "Verdana", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+.part2 button {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 9999px; 
+    border: 1px solid; 
+    margin-bottom: 8px;
+    width: 300px;
+    height: 40px;
+    background-color: #fff; 
+    cursor: pointer; 
+}
+.part2 button:hover{
+    background-color: #e2e2e2; 
+    cursor: pointer; 
+}
+
+.part2 button img {
+    width: 24px; /* Ajuster la taille de l'image selon vos besoins */
+    height: 24px; /* Ajuster la taille de l'image selon vos besoins */
+    margin-right: 8px; /* Espace entre l'image et le texte */
+}
+
+.part2 button {
+    font-size: 14px; /* Ajuster la taille du texte si nécessaire */
+}
+.part2>.inscriptionbouton button{
+    background-color: #1DA1F2; 
+}
+.part2>.inscriptionbouton button:hover{
+    background-color: #1980c0; 
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    color: gray;
+}
+.footer p {
+    padding: 0px 5px;
+}
+.footer p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
